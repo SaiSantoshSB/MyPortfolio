@@ -19,75 +19,49 @@
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <Button
+        style="@style/ButtonStyle"
         android:id="@+id/movies"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        android:background="#2E3D49"
         android:text="@string/popular_movies"
-        android:textAllCaps="true"
-        android:textColor="@android:color/white" />
+        />
 
     <Button
+        style="@style/ButtonStyle"
         android:id="@+id/stock_hawk"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
         android:layout_below="@+id/movies"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:background="#2E3D49"
         android:text="@string/stock_hawk"
-        android:textAllCaps="true"
-        android:textColor="@android:color/white" />
-
+/>
     <Button
+        style="@style/ButtonStyle"
         android:id="@+id/build_it_bigger"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
         android:layout_alignStart="@+id/stock_hawk"
         android:layout_below="@+id/stock_hawk"
         android:layout_marginTop="10dp"
-        android:background="#2E3D49"
-        android:text="@string/build_it_bigger"
-        android:textAllCaps="true"
-        android:textColor="@android:color/white" />
+        android:text="@string/build_it_bigger" />
 
     <Button
+        style="@style/ButtonStyle"
         android:id="@+id/app_material"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
         android:layout_below="@+id/build_it_bigger"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:background="#2E3D49"
-        android:text="@string/make_your_app_material"
-        android:textAllCaps="true"
-        android:textColor="@android:color/white" />
+        android:text="@string/make_your_app_material" />
 
     <Button
+        style="@style/ButtonStyle"
         android:id="@+id/ubiquitous"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
         android:layout_alignStart="@+id/app_material"
         android:layout_below="@+id/app_material"
         android:layout_marginTop="10dp"
-        android:background="#2E3D49"
-        android:text="@string/go_ubiquitous"
-        android:textAllCaps="true"
-        android:textColor="@android:color/white" />
+        android:text="@string/go_ubiquitous" />
 
     <Button
+        style="@style/ButtonStyle"
         android:id="@+id/capstone"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
         android:layout_alignStart="@+id/ubiquitous"
         android:layout_below="@+id/ubiquitous"
         android:layout_marginTop="10dp"
-        android:background="#2E3D49"
-        android:clickable="true"
-        android:text="@string/capstone"
-        android:textAllCaps="true"
-        android:textColor="@android:color/white" />
+        android:text="@string/capstone" />
 </RelativeLayout>
